@@ -17,11 +17,21 @@ I am not planning to implement any another updates, but it is currently in worki
 <p><br> <br>
   
  <b>[<span>Features</span>]</b><br>
-1st Javascript based Listing Pages Catalogue (Thanks to <a href="https://codecanyon.net/item/wowbook-a-flipbook-jquery-plugin/1791563">WooBook</a> Wordpress Plugin)<br>
+1st Jquery based Listing Pages Catalogue (Thanks to <a href="https://codecanyon.net/item/wowbook-a-flipbook-jquery-plugin/1791563">WooBook</a> Wordpress Plugin)<br>
 2nd Display the all newly added products directly under the selected category<br>
 3th Auto play mode, last page, next page, user information and others related to the front page<br>
-4th Add to basket functionalities build with bootstrap modal<br>
+5th Add to basket and checkout functionalities built with bootstrap modal and Ajax<br>
+6th Responsive admin dashboard with GoogleCharts API <br>
+8th Dynamic search results with google chart table<br>
+9th Adding new new prodduct, category, edit product, add product description and image with tinimce text editor<br>
+And many other functionalities. 
+
 <p><br> <br>
+ 
+ Live Demo:
+ <a href="http://185.40.20.149:82">Main Page</a>
+ <a href="http://185.40.20.149:82/admin">Admin Board</a> using user: test / password: test
+  
   </article>
 
 
