@@ -12,8 +12,17 @@
 The idea behind was to create a small jewellery E-Commerce that looks like a paper catalogue so you can list the pages. 
 I am not planning to implement any another updates, but it in working order with finished template with a solid basis to become well looking unique E-commerce for personal use.
 
-Installation
-
-1
+<b>[<span>Installation</span>]</b><br>
+1st Run the script catalog.sql into your query analyzer and press F5. Create a database if you do not have one<br>
+2nd Put the website into the main directory, not in sub-folder, some files use "Directory Root" as a destination and you may have problems with images and files including<br>
+3th Replace your SQL connecting credentials in the config.php (at the very bottom)<br>
+<p><br> <br>
+  
+ <b>[<span>Features</span>]</b><br>
+1st Run the script catalog.sql into your query analyzer and press F5. Create a database if you do not have one<br>
+2nd Put the website into the main directory, not in sub-folder, some files use "Directory Root" as a destination and you may have problems with images and files including<br>
+3th Replace your SQL connecting credentials in the config.php (at the very bottom)<br>
+<p><br> <br>
+  </article>
 
 
