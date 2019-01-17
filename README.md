@@ -28,9 +28,9 @@ And many other functionalities.
 
 <p><br> <br>
  
- Live Demo:
- <a href="http://185.40.20.149:82">Main Page</a>
- <a href="http://185.40.20.149:82/admin">Admin Board</a> using user: test / password: test
+ <b>Live Demo:</br></b>
+ <a target="_blank" href="http://185.40.20.149:82">Main Page</a></br>
+ <a target="_blank" href="http://185.40.20.149:82/admin">Admin Board</a> using User: test and Password: test
   
   </article>
 
