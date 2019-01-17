@@ -1,0 +1,149 @@
+/*
+ * @name wowBook
+ * @desc style for wowBook plugin for jQuery
+ *
+ * @author Marcio Aguiar
+ * @version 1.0
+ *
+ * Date: Wed Dec 8 10:05:49 2010 -0200
+ */
+
+.wowbook {
+	position : relative;
+	zoom: 1;
+}
+.wowbook-page	{
+	zoom: 1;
+}
+
+.wowbook-page-content {
+	position : absolute;
+	overflow : hidden;
+	zoom: 1;
+}
+
+/* marker classes */
+.wowbook-left{}
+.wowbook-right{}
+.wowbook-disabled{}
+
+.wowbook-handle {
+	cursor   : pointer;
+	height   : 100%;
+	position : absolute;
+	top      : 0;
+	width    : 50px;
+	z-index  : 10000;
+}
+
+.wowbook-handle.wowbook-disabled {
+	display : none;
+}
+
+/* shadows */
+.wowbook-shadow-clipper {
+	position : absolute;
+	overflow : hidden;
+	z-index : 999;
+	zoom: 1;
+}
+
+.wowbook-shadow-container {
+	display  : none;
+	position : absolute;
+	z-index  : 999;
+	zoom: 1;
+}
+
+.wowbook-shadow-internal {
+	background : url(shadow_internal_fold.png) repeat-y;
+	height     : 500px;
+	width      : 200px;
+	position   : absolute;
+	zoom: 1;
+}
+
+.wowbook-shadow-fold {
+	background : url(shadow_fold.png) right top repeat-y;
+	height     : 500px;
+	width      : 100px;
+	position   : absolute;
+	zoom       : 1;
+}
+
+.wowbook-shadow-fold-flipped  {
+	background-image : url(shadow_fold_flip_h.png);
+}
+
+.wowbook-fold-gradient {
+	background : url(fold_gradient.png) right top repeat-y;
+	height : 500px;
+	width : 125px;
+	position : absolute;
+	top : 0;
+	zoom: 1;
+}
+
+.wowbook-fold-gradient-flipped {
+	background-image :  url(fold_gradient_flip_h.png);
+}
+
+.wowbook-fold-gradient-container {
+	position : absolute;
+	z-index  : 1001;
+}
+
+.wowbook-gutter-shadow {
+	height     : 100%;
+	width      : 40px;
+	position   : absolute;
+	top        : 0;
+}
+
+.wowbook-left .wowbook-gutter-shadow {
+	background : url(gutter_shadow_left.png) right top repeat-y;
+	right      : 0;
+	width      : 70px;
+}
+
+.wowbook-right .wowbook-gutter-shadow {
+	background : url(gutter_shadow_right.png) right top repeat-y;
+	left       : 0;
+}
+
+.wowbook-hard-page-shadow {
+	background : #888;
+	position   : absolute;
+	top        : 0;
+	z-index    : 999;
+}
+
+.wowbook-page-number {
+	bottom   : 0;
+	padding-bottom: 0.3em;
+	position : absolute;
+}
+
+.wowbook-left .wowbook-page-number {
+	left : 0;
+	padding-left: 0.5em;
+}
+
+.wowbook-right .wowbook-page-number {
+	right : 0;
+	padding-right: 0.5em;
+}
+
+.wowbook-book-shadow{
+	-moz-box-shadow: 0 0 14px #666;
+	-ms-box-shadow: 0 0 14px #666;
+	-webkit-box-shadow: 0 0 14px #666;
+	-o-box-shadow: 0 0 14px #666;
+	box-shadow: 0 0 14px #666;
+}
+
+.wowbook-page-holded {
+}
+.wowbook-page-holded object {
+	/* visibility: hidden; */
+}

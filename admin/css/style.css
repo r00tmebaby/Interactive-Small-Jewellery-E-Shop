@@ -1,0 +1,249 @@
+@media only screen and (max-width: 800px) {
+   .logo{
+	  width:80%;
+	  top:0;
+	
+   }
+   .navbar{
+	   background:#f5f5f5 !important;
+      transition: all 3s ease !important; 
+   }
+}
+
+textarea{
+	min-height:50px;
+	max-width:100%;
+	min-width:100%;
+}
+.btn-clean i{
+	margin-left:13%;
+}
+.btn-clean input{
+	background:none;
+	border:none;
+}
+.btn-clean:hover{
+	background:#f5f5f5;
+	
+}
+.show-names{
+	position:absolute;
+	top:0;
+	margin:0;
+	padding:0;
+	background:#fff;
+	color:#000000;
+	width:80%;
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-size:110%;
+	overflow: auto;
+	max-height:150px;
+	border-bottom:2px ridge #f5f5f5;
+	border-left:2px solid #f5f5f5;
+	border-right:2px solid #f5f5f5;
+	border-radius:5px 5px 5px 5px ;
+	font-style:italic;
+	z-index:1;
+}
+.show-names a{
+	padding:10px 10px;
+}
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('../fonts/BebasNeue-webfont.eot');
+  src: url('../fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 1px;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'BebasNeueRegular';
+  src: url('../fonts/BebasNeue-webfont.eot');
+  src: url('../fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-shadow:1px 1px #93b5d0;
+  font-style: italic;
+}
+.panel-heading{
+  font-family: 'BebasNeueRegular';
+  src: url('../fonts/BebasNeue-webfont.eot');
+  src: url('../fonts/BebasNeue-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  font-size:110%;
+  font-style: italic;
+}
+.logo{
+	margin:0;
+	float:left;
+	padding:0;
+}
+.top-nav ul{
+	display:table;
+	margin:0 auto;
+}
+.dropdown-menu{
+	z-index:99999999999;
+	position:absolute;
+}
+
+.top-nav{
+	box-shadow: 5px 4px 5px #000;
+	display:inline-block;
+	width:100%;
+	background:rgba(255,255,242,0.9);
+	padding:20px 20px;
+	max-height:10%;
+	
+}
+.top-nav ul li{
+	margin:10px 10px;
+	display:inline;
+	font-family: 'BebasNeueRegular', sans-serif;
+}
+
+.navbar{
+     background: rgba(28,28,28,0.87);
+     background: -moz-linear-gradient(left, rgba(28,28,28,0.87) 0%, rgba(28,28,28,0.87) 0%, rgba(25,64,90,0.87) 14%, rgba(21,105,161,0.89) 30%, rgba(245,240,245,1) 100%);
+     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(28,28,28,0.87)), color-stop(0%, rgba(28,28,28,0.87)), color-stop(14%, rgba(25,64,90,0.87)), color-stop(30%, rgba(21,105,161,0.89)), color-stop(100%, rgba(245,240,245,1)));
+     background: -webkit-linear-gradient(left, rgba(28,28,28,0.87) 0%, rgba(28,28,28,0.87) 0%, rgba(25,64,90,0.87) 14%, rgba(21,105,161,0.89) 30%, rgba(245,240,245,1) 100%);
+     background: -o-linear-gradient(left, rgba(28,28,28,0.87) 0%, rgba(28,28,28,0.87) 0%, rgba(25,64,90,0.87) 14%, rgba(21,105,161,0.89) 30%, rgba(245,240,245,1) 100%);
+     background: -ms-linear-gradient(left, rgba(28,28,28,0.87) 0%, rgba(28,28,28,0.87) 0%, rgba(25,64,90,0.87) 14%, rgba(21,105,161,0.89) 30%, rgba(245,240,245,1) 100%);
+     background: linear-gradient(to right, rgba(28,28,28,0.87) 0%, rgba(28,28,28,0.87) 0%, rgba(25,64,90,0.87) 14%, rgba(21,105,161,0.89) 30%, rgba(245,240,245,1) 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#f5f0f5', GradientType=1 );	display:inline-block;
+     width:100%;
+	 margin-bottom:10px;	
+	 transition: all 3s ease !important;
+}
+.nav-link{
+   font-size:18pt;
+   color:#401000;
+   text-shadow:1px 1px #ed8238;
+   font-style:italic;
+   font-weight:900;
+   font-family: "Times New Roman", Times, serif;
+}
+.nav-item a{
+	margin:10px 10px;
+	display:inline;
+	width:100%;
+}
+.image-articul{
+	width:100%; 
+	height:100%;
+	border-top:3px solid #381c00 ;
+	border-bottom:3px solid #381c00 ;
+	border-radius:10px 10px 10px 10px;
+	margin-top:5%;
+	margin-bottom:10%;
+}
+
+.container{
+	margin-top:5%;
+	padding:3% 3%;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.75);
+	background:rgba(64,48,0,0.2);
+	border-top:2px solid #d1915e;
+	border-radius:10px 10px 0 0;
+}
+.cssHeaderRow{
+	background:#f8f8f8;
+	padding:10px 10px !important;
+}
+.unsorted{
+	padding:10px 10px !important;
+	font-style:italic;
+    font-weight:900;
+	font-size:12pt;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+.google-visualization-table-div-page, gradient{
+	padding:10px 10px !important;
+}
+.google-visualization-table-page-number {
+    background-color:#f8f8f8 !important;
+    color:#333333 !important;
+    border: 1px solid #dddddd !important;
+    font-weight:900 !important;
+	font-size:12px !important;
+	font-family: "Times New Roman", Times, serif;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+.google-visualization-table-page-numbers{
+	background-color:#transparent !important;
+}
+.goog-custom-button-inner-box{
+	background-color:#444 !important;
+	border: none !important;
+	font-family: "Times New Roman", Times, serif;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	margin:2px 2px!important;
+}
+.goog-inline-block{
+	background:none !important;
+	border: none !important;
+	
+}
+.google-visualization-table-div-page{
+	background-color:#f8f8f8 !important;
+	
+}
+.gradient{
+	background-color:rgba(104,104,89,0.2)!important;
+	
+	color:#131304;
+	padding:5px 5px !important;	
+}
+.goog-inline-block{
+	background-color:transparent !important;	
+}
+
+.google-visualization-table{
+	border:1px solid #e7e7e7;
+}
+.cssRowNumberCell{
+	background:#f8f8f8;
+}
+.cssTableCell{
+	padding:5px 5px !important;	
+}
+
+.cssSelectedTableRow:hover, .cssOddTableRow:hover,.cssTableRow:hover {
+	background:#f5f5f5;
+	color:#000000;
+	text-shadow:1px 1px #000;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+
+.alert{
+	position:absolute;
+	top:0;
+	width:80%;
+}
+.text-area{
+	text-align:left;
+	min-height:90px;
+}
+.alert{
+	text-align:center;
+}
