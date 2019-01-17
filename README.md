@@ -8,7 +8,7 @@
 <img src="https://i.gyazo.com/64b81b6453ba49940ee6c3d6249b984e.png">
 
 The idea behind was to create a small jewellery E-Commerce that looks like a paper catalogue so you can list the pages. 
-I am not planning to implement any another updates, but it in working order with finished template with a solid basis to become well looking unique E-commerce for personal use.
+I am not planning to implement any another updates, but it is currently in working order with finished responsive template based on bootstrap framework. It already has a solid basis to become well looking unique E-commerce for personal use to be used for another project.
 
 <b>[<span>Installation</span>]</b><br>
 1st Run the script catalog.sql into your query analyzer and press F5. Create a database if you do not have one<br>
@@ -17,9 +17,10 @@ I am not planning to implement any another updates, but it in working order with
 <p><br> <br>
   
  <b>[<span>Features</span>]</b><br>
-1st Run the script catalog.sql into your query analyzer and press F5. Create a database if you do not have one<br>
-2nd Put the website into the main directory, not in sub-folder, some files use "Directory Root" as a destination and you may have problems with images and files including<br>
-3th Replace your SQL connecting credentials in the config.php (at the very bottom)<br>
+1st Javascript based Listing Pages Catalogue (Thanks to <a href="https://codecanyon.net/item/wowbook-a-flipbook-jquery-plugin/1791563">WooBook</a> Wordpress Plugin)<br>
+2nd Display the all newly added products directly under the selected category<br>
+3th Auto play mode, last page, next page, user information and others related to the front page<br>
+4th Add to basket functionalities build with bootstrap modal<br>
 <p><br> <br>
   </article>
 
