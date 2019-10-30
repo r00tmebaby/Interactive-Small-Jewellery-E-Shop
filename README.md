@@ -29,7 +29,7 @@ And many other functionalities.
 <p><br> <br>
  
  <b>Live Demo:</br></b>
- <a target="_blank" href="http://5.9.94.164:50444/">Main Page</a></br>
+ <a target="_blank" href="http://5.9.94.164:50444/?p=catalogues&cat=1/">Main Page</a></br>
  <a target="_blank" href="http://5.9.94.164:50444/admin">Admin Board</a> using User: test and Password: test
   
   </article>
